@@ -1,0 +1,130 @@
+.header{
+  height:70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:white;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  border-bottom: solid 1px rgb(212, 212, 212);
+   z-index: 100;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+.hamburger{
+  height: 30px;
+  margin-left: 24px;
+  margin-right: 1px;
+}
+
+.Youtube{
+  height: 100px;
+}
+
+.center-section{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar{
+  display: flex;
+  max-width: 1000px;
+  min-width: 100px;
+  flex: 1;
+  width: 0;
+  height: 25px;
+  font-weight: 10px;
+  padding-left: 10px;
+  font-weight: 9px;
+  border: 1px solid rgb(115, 115, 115);
+  border-radius: 2px;
+  box-shadow: inset 1px 1px 5px rgb(212, 212, 212);
+}
+
+.search-bar::placeholder{
+  font-family: Roboto, Arial;
+  font-weight: 12px;
+}
+
+.search{
+  margin-left: -5px;
+  margin-right:10px;
+}
+
+.search-icon {
+  height: 20px;
+  width: 24px;
+  border: 1px  rgba(218, 218, 218, 1);
+}
+
+.microphone{
+  height: 40px;
+  width: 40px;
+  border-radius:20px;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: rgba(218, 218, 218, 1);
+}
+
+.microphone-icon {
+  height: 24px;
+  padding-right: 2px;
+  padding-left: ;
+  
+}
+
+.right-section{
+  width: 200px;
+  justify-content: space-between;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.create{
+  height: 50px;
+  margin-right: 0;
+  margin-left: 0px;
+}
+
+.grid{
+  height: 25px;
+  margin-left: 10px;
+}
+
+.notification-icon-container{
+  position: relative;
+}
+
+.notification{
+  margin-left: 20px;
+  height: 25px;
+}
+
+.notification-count{
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  font-family: Roboto, Arial;
+  font-weight: 12px;
+  padding: 1px 5px;
+  border-radius: 100%;
+}
+
+.my-channel{
+  margin-left: 20px;
+  height: 25px;
+}
+
